@@ -1,3 +1,6 @@
+#define _STDIO_H_ 1
+#define _STDLIB_H 1
+
 #include <u.h>
 #include <libc.h>
 #include <mp.h>

@@ -1,3 +1,7 @@
+#define _STDIO_H_ 1
+#define _STDLIB_H 1
+#define _STDLIB_H_P9P 1
+
 #include <u.h>
 #include <libc.h>
 #include <bin.h>

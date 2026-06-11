@@ -2,8 +2,10 @@
 #define NOPLAN9DEFINES
 #include <libc.h>
 #include <termios.h>
+#ifndef __ANDROID__
 #ifdef HAS_SYS_TERMIOS
 #include <sys/termios.h>
+#endif
 #endif
 
 static int

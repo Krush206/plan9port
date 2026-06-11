@@ -10,8 +10,10 @@
 #include	<u.h>
 #include	<sys/ioctl.h>
 #include	<termios.h>
+#ifndef __ANDROID__
 #ifdef HAS_SYS_TERMIOS
 #include	<sys/termios.h>
+#endif
 #endif
 #include	<libc.h>
 #include	<draw.h>

@@ -5,6 +5,9 @@
  *	input routines, escape function calling
  */
 
+#define _STDIO_H_ 1
+#define _STDLIB_H 1
+
 #include <u.h>
 #include "tdef.h"
 #include "fns.h"

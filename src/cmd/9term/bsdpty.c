@@ -5,8 +5,10 @@
 #include <errno.h>
 #include <grp.h>
 #include <termios.h>
+#ifndef __ANDROID__
 #ifdef HAS_SYS_TERMIOS
 #include <sys/termios.h>
+#endif
 #endif
 #ifdef __linux__
 #include <pty.h>
